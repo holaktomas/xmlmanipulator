@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07">
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>1</MsgId>
+            <CreDtTm>2018-06-04T13:37:58.745+02:00</CreDtTm>
+            <BtchBookg>false</BtchBookg>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>70.55</CtrlSum>
+            <TtlIntrBkSttlmAmt Ccy="EUR">65.55</TtlIntrBkSttlmAmt>
+            <IntrBkSttlmDt>2018-06-04</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+                <ClrSys>
+                    <Prtry>RT1</Prtry>
+                </ClrSys>
+            </SttlmInf>
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Cd>INST</Cd>
+                </LclInstrm>
+            </PmtTpInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+            <InstdAgt>
+                <FinInstnId>
+                    <BICFI>BOFSFR2S</BICFI>
+                </FinInstnId>
+            </InstdAgt>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>EE80168716799289860</EndToEndId>
+                <TxId>376509907802783745</TxId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">65.55</IntrBkSttlmAmt>
+            <AccptncDtTm>2018-06-04T11:37:58.492Z</AccptncDtTm>
+            <ChrgBr>SLEV</ChrgBr>
+            <UltmtDbtr>
+                <Nm>nmDebitor field test</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC></AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT09 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT09 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT09 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT09 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT09 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtDbtr>
+            <Dbtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <OrgId>
+                        <AnyBIC>BOFSFR2S</AnyBIC>
+                        <Othr>
+                            <Id>AT10 Test Id</Id>
+                            <SchmeNm>
+                                <Prtry>AT10 Test Party</Prtry>
+                            </SchmeNm>
+                            <Issr>AT 10 Test Issr</Issr>
+                        </Othr>
+                    </OrgId>
+                    <!--PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                             <PrvcOfBirth>AT10 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT10 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>DE</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                          <Othr>
+                           <Id>AT10 Pvt Id Test</Id>
+                             <SchmeNm>
+                               <Prtry>AT10 Pvt Party Test</Prtry>
+                             </SchmeNm>
+                                <Issr>AT10 Pvt Issr Test</Issr>
+                           </Othr>
+                    </PrvtId-->
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>GB23BOFS12501911223344</IBAN>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>DEUTFRFR237</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AAAAAAA9</AnyBIC>
+                       <Othr>
+                        <Id>AT24 Test Id</Id>
+                          <SchmeNm>
+                           <Prtry>AT24 Test Party</Prtry>
+                          </SchmeNm>
+                           <Issr>AT 24 Test Issr</Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT24 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT24 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT24 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT24 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT24 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>DE49230707000861083400</IBAN>
+                </Id>
+            </CdtrAcct>
+            <UltmtCdtr>
+                <Nm>nm Creditor field</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AT22 </AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT29 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT29 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT29 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT29 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT29 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtCdtr>
+            <Purp>
+                <Cd>Cd</Cd>
+                <!--Prtry>Prtry field test</Prtry-->
+            </Purp>
+            <RmtInf>
+                <Ustrd>Test Ustrd Field</Ustrd>
+                <Strd>
+                    <CdtrRefInf>
+                        <Tp>
+                            <CdOrPrtry>
+                                <Cd>PUOR</Cd>
+                            </CdOrPrtry>
+                            <Issr>test Issr field</Issr>
+                        </Tp>
+                        <Ref>test Ref field</Ref>
+                    </CdtrRefInf>
+                </Strd>
+            </RmtInf>
+            <SplmtryData>
+                <Envlp>
+                    <supplementaryData xmlns="urn:com:db:sis:bafir:supplementaryData/v1">
+                        <providerData>
+                            <CounterPty>
+                                <PartyKey>
+                                    <CstmrId>730008610834</CstmrId>
+                                    <BackendPx>DB_DE</BackendPx>
+                                </PartyKey>
+                                <LclCstmrId>
+                                    <Mandant>03</Mandant>
+                                </LclCstmrId>
+                                <DbBU>FI</DbBU>
+                            </CounterPty>
+                            <TxCrDtTm>2018-06-04T13:37:58.745+02:00</TxCrDtTm>
+                            <Channel>RTE</Channel>
+                            <TxId>RegHSPOSTEST13</TxId>
+                            <ReqId>376509907802783745</ReqId>
+                            <TxOrigSysCd>RTEBA</TxOrigSysCd>
+                            <originalBatch>
+                                <amount>65.55</amount>
+                                <NbOfTxs>1</NbOfTxs>
+                            </originalBatch>
+                            <TrnType>110000</TrnType>
+                        </providerData>
+                    </supplementaryData>
+                </Envlp>
+            </SplmtryData>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>2</MsgId>
+            <CreDtTm>2018-06-04T13:37:58.745+02:00</CreDtTm>
+            <BtchBookg>false</BtchBookg>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>80.55</CtrlSum>
+            <TtlIntrBkSttlmAmt Ccy="EUR">65.55</TtlIntrBkSttlmAmt>
+            <IntrBkSttlmDt>2018-06-04</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+                <ClrSys>
+                    <Prtry>RT1</Prtry>
+                </ClrSys>
+            </SttlmInf>
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Cd>INST</Cd>
+                </LclInstrm>
+            </PmtTpInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+            <InstdAgt>
+                <FinInstnId>
+                    <BICFI>BOFSFR2S</BICFI>
+                </FinInstnId>
+            </InstdAgt>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>EE80168716799289860</EndToEndId>
+                <TxId>376509907802783745</TxId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">65.55</IntrBkSttlmAmt>
+            <AccptncDtTm>2018-06-04T11:37:58.492Z</AccptncDtTm>
+            <ChrgBr>SLEV</ChrgBr>
+            <UltmtDbtr>
+                <Nm>nmDebitor field test</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC></AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT09 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT09 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT09 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT09 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT09 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtDbtr>
+            <Dbtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <OrgId>
+                        <AnyBIC>BOFSFR2S</AnyBIC>
+                        <Othr>
+                            <Id>AT10 Test Id</Id>
+                            <SchmeNm>
+                                <Prtry>AT10 Test Party</Prtry>
+                            </SchmeNm>
+                            <Issr>AT 10 Test Issr</Issr>
+                        </Othr>
+                    </OrgId>
+                    <!--PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                             <PrvcOfBirth>AT10 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT10 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>DE</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                          <Othr>
+                           <Id>AT10 Pvt Id Test</Id>
+                             <SchmeNm>
+                               <Prtry>AT10 Pvt Party Test</Prtry>
+                             </SchmeNm>
+                                <Issr>AT10 Pvt Issr Test</Issr>
+                           </Othr>
+                    </PrvtId-->
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>GB23BOFS12501911223344</IBAN>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>DEUTFRFR237</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AAAAAAA9</AnyBIC>
+                       <Othr>
+                        <Id>AT24 Test Id</Id>
+                          <SchmeNm>
+                           <Prtry>AT24 Test Party</Prtry>
+                          </SchmeNm>
+                           <Issr>AT 24 Test Issr</Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT24 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT24 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT24 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT24 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT24 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>DE49230707000861083400</IBAN>
+                </Id>
+            </CdtrAcct>
+            <UltmtCdtr>
+                <Nm>nm Creditor field</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AT22 </AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT29 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT29 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT29 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT29 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT29 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtCdtr>
+            <Purp>
+                <Cd>Cd</Cd>
+                <!--Prtry>Prtry field test</Prtry-->
+            </Purp>
+            <RmtInf>
+                <Ustrd>Test Ustrd Field</Ustrd>
+                <Strd>
+                    <CdtrRefInf>
+                        <Tp>
+                            <CdOrPrtry>
+                                <Cd>PUOR</Cd>
+                            </CdOrPrtry>
+                            <Issr>test Issr field</Issr>
+                        </Tp>
+                        <Ref>test Ref field</Ref>
+                    </CdtrRefInf>
+                </Strd>
+            </RmtInf>
+            <SplmtryData>
+                <Envlp>
+                    <supplementaryData xmlns="urn:com:db:sis:bafir:supplementaryData/v1">
+                        <providerData>
+                            <CounterPty>
+                                <PartyKey>
+                                    <CstmrId>730008610834</CstmrId>
+                                    <BackendPx>DB_DE</BackendPx>
+                                </PartyKey>
+                                <LclCstmrId>
+                                    <Mandant>03</Mandant>
+                                </LclCstmrId>
+                                <DbBU>FI</DbBU>
+                            </CounterPty>
+                            <TxCrDtTm>2018-06-04T13:37:58.745+02:00</TxCrDtTm>
+                            <Channel>RTE</Channel>
+                            <TxId>RegHSPOSTEST13</TxId>
+                            <ReqId>376509907802783745</ReqId>
+                            <TxOrigSysCd>RTEBA</TxOrigSysCd>
+                            <originalBatch>
+                                <amount>65.55</amount>
+                                <NbOfTxs>1</NbOfTxs>
+                            </originalBatch>
+                            <TrnType>110000</TrnType>
+                        </providerData>
+                    </supplementaryData>
+                </Envlp>
+            </SplmtryData>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>3</MsgId>
+            <CreDtTm>2018-06-04T13:37:58.745+02:00</CreDtTm>
+            <BtchBookg>false</BtchBookg>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>100.55</CtrlSum>
+            <TtlIntrBkSttlmAmt Ccy="EUR">65.55</TtlIntrBkSttlmAmt>
+            <IntrBkSttlmDt>2018-06-04</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+                <ClrSys>
+                    <Prtry>RT1</Prtry>
+                </ClrSys>
+            </SttlmInf>
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Cd>INST</Cd>
+                </LclInstrm>
+            </PmtTpInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+            <InstdAgt>
+                <FinInstnId>
+                    <BICFI>BOFSFR2S</BICFI>
+                </FinInstnId>
+            </InstdAgt>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>EE80168716799289860</EndToEndId>
+                <TxId>376509907802783745</TxId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">65.55</IntrBkSttlmAmt>
+            <AccptncDtTm>2018-06-04T11:37:58.492Z</AccptncDtTm>
+            <ChrgBr>SLEV</ChrgBr>
+            <UltmtDbtr>
+                <Nm>nmDebitor field test</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC></AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT09 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT09 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT09 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT09 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT09 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtDbtr>
+            <Dbtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <OrgId>
+                        <AnyBIC>BOFSFR2S</AnyBIC>
+                        <Othr>
+                            <Id>AT10 Test Id</Id>
+                            <SchmeNm>
+                                <Prtry>AT10 Test Party</Prtry>
+                            </SchmeNm>
+                            <Issr>AT 10 Test Issr</Issr>
+                        </Othr>
+                    </OrgId>
+                    <!--PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                             <PrvcOfBirth>AT10 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT10 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>DE</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                          <Othr>
+                           <Id>AT10 Pvt Id Test</Id>
+                             <SchmeNm>
+                               <Prtry>AT10 Pvt Party Test</Prtry>
+                             </SchmeNm>
+                                <Issr>AT10 Pvt Issr Test</Issr>
+                           </Othr>
+                    </PrvtId-->
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>GB23BOFS12501911223344</IBAN>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>DEUTFRFR237</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AAAAAAA9</AnyBIC>
+                       <Othr>
+                        <Id>AT24 Test Id</Id>
+                          <SchmeNm>
+                           <Prtry>AT24 Test Party</Prtry>
+                          </SchmeNm>
+                           <Issr>AT 24 Test Issr</Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT24 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT24 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT24 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT24 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT24 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>DE49230707000861083400</IBAN>
+                </Id>
+            </CdtrAcct>
+            <UltmtCdtr>
+                <Nm>nm Creditor field</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AT22 </AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT29 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT29 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT29 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT29 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT29 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtCdtr>
+            <Purp>
+                <Cd>Cd</Cd>
+                <!--Prtry>Prtry field test</Prtry-->
+            </Purp>
+            <RmtInf>
+                <Ustrd>Test Ustrd Field</Ustrd>
+                <Strd>
+                    <CdtrRefInf>
+                        <Tp>
+                            <CdOrPrtry>
+                                <Cd>PUOR</Cd>
+                            </CdOrPrtry>
+                            <Issr>test Issr field</Issr>
+                        </Tp>
+                        <Ref>test Ref field</Ref>
+                    </CdtrRefInf>
+                </Strd>
+            </RmtInf>
+            <SplmtryData>
+                <Envlp>
+                    <supplementaryData xmlns="urn:com:db:sis:bafir:supplementaryData/v1">
+                        <providerData>
+                            <CounterPty>
+                                <PartyKey>
+                                    <CstmrId>730008610834</CstmrId>
+                                    <BackendPx>DB_DE</BackendPx>
+                                </PartyKey>
+                                <LclCstmrId>
+                                    <Mandant>03</Mandant>
+                                </LclCstmrId>
+                                <DbBU>FI</DbBU>
+                            </CounterPty>
+                            <TxCrDtTm>2018-06-04T13:37:58.745+02:00</TxCrDtTm>
+                            <Channel>RTE</Channel>
+                            <TxId>RegHSPOSTEST13</TxId>
+                            <ReqId>376509907802783745</ReqId>
+                            <TxOrigSysCd>RTEBA</TxOrigSysCd>
+                            <originalBatch>
+                                <amount>65.55</amount>
+                                <NbOfTxs>1</NbOfTxs>
+                            </originalBatch>
+                            <TrnType>110000</TrnType>
+                        </providerData>
+                    </supplementaryData>
+                </Envlp>
+            </SplmtryData>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>4</MsgId>
+            <CreDtTm>2018-06-04T13:37:58.745+02:00</CreDtTm>
+            <BtchBookg>false</BtchBookg>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>65.55</CtrlSum>
+            <TtlIntrBkSttlmAmt Ccy="EUR">65.55</TtlIntrBkSttlmAmt>
+            <IntrBkSttlmDt>2018-06-04</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+                <ClrSys>
+                    <Prtry>RT1</Prtry>
+                </ClrSys>
+            </SttlmInf>
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Cd>INST</Cd>
+                </LclInstrm>
+            </PmtTpInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+            <InstdAgt>
+                <FinInstnId>
+                    <BICFI>BOFSFR2S</BICFI>
+                </FinInstnId>
+            </InstdAgt>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>EE80168716799289860</EndToEndId>
+                <TxId>376509907802783745</TxId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">65.55</IntrBkSttlmAmt>
+            <AccptncDtTm>2018-06-04T11:37:58.492Z</AccptncDtTm>
+            <ChrgBr>SLEV</ChrgBr>
+            <UltmtDbtr>
+                <Nm>nmDebitor field test</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC></AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT09 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT09 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT09 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT09 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT09 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtDbtr>
+            <Dbtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <OrgId>
+                        <AnyBIC>BOFSFR2S</AnyBIC>
+                        <Othr>
+                            <Id>AT10 Test Id</Id>
+                            <SchmeNm>
+                                <Prtry>AT10 Test Party</Prtry>
+                            </SchmeNm>
+                            <Issr>AT 10 Test Issr</Issr>
+                        </Othr>
+                    </OrgId>
+                    <!--PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                             <PrvcOfBirth>AT10 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT10 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>DE</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                          <Othr>
+                           <Id>AT10 Pvt Id Test</Id>
+                             <SchmeNm>
+                               <Prtry>AT10 Pvt Party Test</Prtry>
+                             </SchmeNm>
+                                <Issr>AT10 Pvt Issr Test</Issr>
+                           </Othr>
+                    </PrvtId-->
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>GB23BOFS12501911223344</IBAN>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>BOFSDE2S</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>DEUTFRFR237</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>BOFSGB2S</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AAAAAAA9</AnyBIC>
+                       <Othr>
+                        <Id>AT24 Test Id</Id>
+                          <SchmeNm>
+                           <Prtry>AT24 Test Party</Prtry>
+                          </SchmeNm>
+                           <Issr>AT 24 Test Issr</Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT24 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT24 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT24 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT24 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT24 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+                <!--PstlAdr>
+                    <Ctry>GB</Ctry>
+                    <AdrLine>Munich</AdrLine>
+                </PstlAdr-->
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>DE49230707000861083400</IBAN>
+                </Id>
+            </CdtrAcct>
+            <UltmtCdtr>
+                <Nm>nm Creditor field</Nm>
+                <Id>
+                    <!--OrgId>
+                      <AnyBIC>AT22 </AnyBIC>
+                       <Othr>
+                        <Id></Id>
+                          <SchmeNm>
+                           <Prtry></Prtry>
+                          </SchmeNm>
+                           <Issr></Issr>
+                              </Othr>
+                          </OrgId-->
+                    <PrvtId>
+                        <DtAndPlcOfBirth>
+                            <BirthDt>1999-01-01</BirthDt>
+                            <PrvcOfBirth>AT29 Test Prvc Birth</PrvcOfBirth>
+                            <CityOfBirth>AT29 Test CityOfBirth</CityOfBirth>
+                            <CtryOfBirth>GB</CtryOfBirth>
+                        </DtAndPlcOfBirth>
+                        <Othr>
+                            <Id>AT29 Pvt Id Test</Id>
+                            <SchmeNm>
+                                <Prtry>AT29 Pvt Party Test</Prtry>
+                            </SchmeNm>
+                            <Issr>AT29 Pvt Issr Test</Issr>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </UltmtCdtr>
+            <Purp>
+                <Cd>Cd</Cd>
+                <!--Prtry>Prtry field test</Prtry-->
+            </Purp>
+            <RmtInf>
+                <Ustrd>Test Ustrd Field</Ustrd>
+                <Strd>
+                    <CdtrRefInf>
+                        <Tp>
+                            <CdOrPrtry>
+                                <Cd>PUOR</Cd>
+                            </CdOrPrtry>
+                            <Issr>test Issr field</Issr>
+                        </Tp>
+                        <Ref>test Ref field</Ref>
+                    </CdtrRefInf>
+                </Strd>
+            </RmtInf>
+            <SplmtryData>
+                <Envlp>
+                    <supplementaryData xmlns="urn:com:db:sis:bafir:supplementaryData/v1">
+                        <providerData>
+                            <CounterPty>
+                                <PartyKey>
+                                    <CstmrId>730008610834</CstmrId>
+                                    <BackendPx>DB_DE</BackendPx>
+                                </PartyKey>
+                                <LclCstmrId>
+                                    <Mandant>03</Mandant>
+                                </LclCstmrId>
+                                <DbBU>FI</DbBU>
+                            </CounterPty>
+                            <TxCrDtTm>2018-06-04T13:37:58.745+02:00</TxCrDtTm>
+                            <Channel>RTE</Channel>
+                            <TxId>RegHSPOSTEST13</TxId>
+                            <ReqId>376509907802783745</ReqId>
+                            <TxOrigSysCd>RTEBA</TxOrigSysCd>
+                            <originalBatch>
+                                <amount>65.55</amount>
+                                <NbOfTxs>1</NbOfTxs>
+                            </originalBatch>
+                            <TrnType>110000</TrnType>
+                        </providerData>
+                    </supplementaryData>
+                </Envlp>
+            </SplmtryData>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+</Document>
