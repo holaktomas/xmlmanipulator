@@ -22,25 +22,22 @@ class UtilsTest extends Specification {
         expect:
         Node xml = Utils.getXmlFromFile('src/test/resources/1_Pac_valid.xml')
         Node newXml = new XmlParser().parseText('''
-<Document>
-    <Record></Record>
-</Document>
+<Document/>
 ''')
         // get records
-        def records = xml.FIToFICstmrCdtTrf
-        assert records.size() == 4
+        def originalRecords = xml.FIToFICstmrCdtTrf
+        assert originalRecords.size() == 4
+        def baseRecord = originalRecords[0]
 
-        [1, 2, 3].each {
-            def newRecord = records[0]
-            println 'newRecord.GrpHdr.MsgId ' + newRecord.GrpHdr.MsgId
-//            newRecord.GrpHdr.MsgId = it
-            println newRecord.GrpHdr.MsgId
+        // append new nodes
+        (1..10).each {
+            Node newRecord = baseRecord.clone()
+            // dynamic values
+            newRecord.GrpHdr.MsgId[0].value()[0] = it
             // add
-            newXml.appendNode(newRecord)
-            println 'done'
+            newXml.append(newRecord)
         }
 
-        // create new file
         Utils.writeXmlToFile(newXml)
     }
 }
