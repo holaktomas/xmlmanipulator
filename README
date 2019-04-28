@@ -1,0 +1,7 @@
+# XMLManipulator
+Simple utility to generate the test data.
+Take a xml file (e.g. PACS Payment) and generate a new testing file with desired changes, typically with xml nodes replication, etc.
+### Usage
+Core app only loads desired file and writes a new one.
+Use a Unit test to put in your requirements for the changes and run it to generate new file.
+An example provided by running the test `GeneratePACsTest.groovy`.

@@ -1,24 +1,11 @@
+package com.holaktomas.xmlmanipulator.scenarios
+
+import com.holaktomas.xmlmanipulator.Utils
 import spock.lang.Specification
 
-class UtilsTest extends Specification {
+class GeneratePACsTest extends Specification {
 
-    def 'getXmlFromFile'() {
-        when:
-        Utils.getXmlFromFile('src/test/resources/1_Pac_valid.xml')
-        then:
-        noExceptionThrown()
-    }
-
-    def 'localize records'() {
-        given:
-        def xml = Utils.getXmlFromFile('src/test/resources/1_Pac_valid.xml')
-        when:
-        def records = xml.FIToFICstmrCdtTrf
-        then:
-        records.size() == 4
-    }
-
-    def 'flow'() {
+    def 'Replicate records, MsgId should not be the same'() {
         expect:
         Node xml = Utils.getXmlFromFile('src/test/resources/1_Pac_valid.xml')
         Node newXml = new XmlParser().parseText('''
